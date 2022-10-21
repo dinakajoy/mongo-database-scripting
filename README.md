@@ -15,20 +15,39 @@ Create a `.env` file and add your database url there (check `.env.example` for g
 
 To populate data in mongodb with no option for visibility settings:
 ```
-yarn run add-users-to-db or npm run add-users-to-db 
+yarn run add-users-to-db
+```  
+OR  
 ```
+npm run add-users-to-db 
+```
+
 
 To populate data in mongodb with an option for visibility settings:
 ```
-yarn run add-users-with-visibility-to-db or npm run add-users-with-visibility-to-db  
+yarn run add-users-with-visibility-to-db  
+```  
+OR  
 ```
+npm run add-users-with-visibility-to-db  
+```
+
 
 To reformat data in mongodb with no option for visibility settings:
 ```
-yarn run execute-scripts removeVisibilitySettingsFromUserData or npm run execute-scripts removeVisibilitySettingsFromUserData 
+yarn run execute-scripts removeVisibilitySettingsFromUserData
+```   
+OR   
 ```
+npm run execute-scripts removeVisibilitySettingsFromUserData 
+```
+
 
 To reformat data in mongodb with an option for visibility settings:
 ```
-yarn run execute-scripts addVisibilitySettingsToUserData or npm run execute-scripts addVisibilitySettingsToUserData    
+yarn run execute-scripts addVisibilitySettingsToUserData   
+```  
+OR   
+```
+npm run execute-scripts addVisibilitySettingsToUserData    
 ```
