@@ -8,7 +8,8 @@ You can create users with option to set the visibility of their `email, phone an
 
 Clone the repository.    
 cd database-scripting       
-Run `yarn install` or `npm install`   
+Run `yarn install` or `npm install`    
+Create a `.env` file and add your database url there (check `.env.example` for guidiance) 
 
 ### Usage
 
